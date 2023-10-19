@@ -223,8 +223,8 @@ html, body{
   padding-right:10%;
   padding-bottom:25px;
 }
-.responseWrapper div{
-
+.responseWrapper {
+  background-color: #ffffff;
 }
 
 .tileWrapper {
@@ -236,6 +236,16 @@ html, body{
   width:300px;
   background-color: white;
   margin:auto;
+  background-color: white;
+    box-shadow: -5px -5px 0px 0px #6ac0fe;
+    border-radius: 10px;
+    -webkit-animation-name: shadow-show;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.5s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: shadow-show;
+    animation-duration: 1.5s;
+    transition-timing-function: cubic-bezier(0.795, 0, 0.165, 1);
   /*margin-bottom:25px;*/
 }
 .tileTitle{
@@ -289,7 +299,7 @@ html, body{
   height:50px;
   /*border-bottom:1px solid lightgray;*/
   /*margin-bottom:25px;*/
-  background-color:#229954;
+  background-color:#080032;
 }
 .peopleShelter{
   display: grid;
@@ -319,6 +329,7 @@ html, body{
   display:flex;
   justify-content: center;
   align-items:center;
+  color: white;
 }
 .checkboxes div:hover{
   cursor:pointer;
@@ -415,6 +426,8 @@ html, body{
 .timer{
   /*margin-top:1px;*/
 }
+
+
 .safe{
 display:grid;
 grid-template-columns: 50% 50%;
@@ -865,3 +878,18 @@ font-size:2.2em;
 .hide{
   display:none !important;
 }
+
+
+/* FOOTER */
+.footer-style {
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  background-color: silver;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* p {
+  color: black;
+} */

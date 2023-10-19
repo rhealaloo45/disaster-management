@@ -238,12 +238,9 @@ export default class Map extends Component {
   }
 
   render() {
-    return (<
-      div id="app" >
-      <
-        div id="map" />
-      <
-      /div>
+    return (<div id="app" >
+      <div id="map" />
+      </div>
     );
   }
 }

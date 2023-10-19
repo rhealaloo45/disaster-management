@@ -9,7 +9,8 @@ import Response from "./components/Response";
 import Map from "./components/Map";
 import Tileview from "./components/Tileview";
 import About from "./components/About";
-import HowTo from './components/howto'
+import HowTo from './components/howto';
+import Footer from './components/Footer1';
 
 class App extends Component {
   constructor(props) {
@@ -69,8 +70,11 @@ class App extends Component {
             <Route path="/howto" component={HowTo} />
             <Route path="/about" component={About} />
           </Switch>
+
+          <Footer/>
         </div>
       </BrowserRouter>
+      
     );
   }
 }

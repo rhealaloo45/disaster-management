@@ -6,7 +6,7 @@ import { tiles } from "./components/data";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Response from "./components/Response";
-import Map from "./components/Map";
+// import Map from "./components/Map";
 import Tileview from "./components/Tileview";
 import About from "./components/About";
 import HowTo from './components/howto';
@@ -38,7 +38,7 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Hero} />
-            <Route path="/map" component={Map} />
+            {/* <Route path="/map" component={Map} /> */}
             <Route
               path="/response"
               component={props => (

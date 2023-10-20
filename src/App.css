@@ -3,7 +3,7 @@
 
 html, body{
   margin:0px;
-  background-color:#00012c;
+  background-image: url(./components/assets/bg.jpg);
 }
 
 .navbarWrapper {
@@ -11,7 +11,7 @@ html, body{
   grid-template-columns: 59% 11% 11% 11% 0%;
   height:75px;
   width:100%;
-  background-color:#007dd0;
+  background-color:#a80000;
 }
 
 .navbarWrapper div{
@@ -32,12 +32,13 @@ html, body{
 }
 .logo a:visited{
   text-decoration: none;
-  color:black;
+  color:rgb(255, 255, 255);
 }
 .logo {
   text-decoration: none;
   font-family: 'Montserrat', serif;
   font-size:1.3em;
+  color: white;
 }
 .tileLink a:visited, .mapLink a:visited, .logInLink a:visited, .About:visited{
   text-decoration: none;
@@ -81,7 +82,7 @@ html, body{
 .helpTitle{
   font-size:2em;
   color:white;
-  background-color: red;
+  background-color: rgb(255, 168, 87);
   font-family: 'Montserrat', serif;
   border-radius: 24px 24px 0 0;
 }
@@ -105,7 +106,7 @@ html, body{
   font-size:1.6em;
   font-family: 'Montserrat', serif;
   color:white;
-  background-color: red;
+  background-color: rgb(255, 174, 103);
   line-height: 150%;
   font-weight: bold;
 }
@@ -167,6 +168,8 @@ html, body{
   color:white;
   background-color:#1F618D;
   border-radius:  0 0 24px 24px ;
+  padding: 20px;
+  /* text-align: justify; */
 }
 .responseApp:hover{
   cursor:pointer;
@@ -389,9 +392,10 @@ html, body{
   justify-content: center;
 }
 .AddStyle{
+  color: white;
   height:80%;
   width:150px;
-  border:1px solid black;
+  border:1px solid white;
   margin-top:4px;
   font-family: 'Montserrat', serif;
   /*margin-bottom:auto;*/
@@ -399,9 +403,9 @@ html, body{
 .AddStyle:hover{
   cursor:pointer;
   /*background-color: lightgray;*/
-  color:white;
+  color:rgb(89, 139, 255);
   font-size:1.1em;
-  border:1px solid white;
+  border:1px solid rgb(255, 0, 0);
 }
 
 .white, .red{
@@ -762,6 +766,8 @@ input[id=availInputs]:hover::-webkit-input-placeholder {
   border:1px solid lightgray;
   width:100%;
   height:100%;
+  border-radius: 15px;
+  color: black;
 }
 .AppDirections{
   display:grid;
@@ -769,6 +775,8 @@ input[id=availInputs]:hover::-webkit-input-placeholder {
   border:1px solid lightgray;
   width:100%;
   height:100%;
+  border-radius: 15px;
+  color: black;
 }
 .AppDirectionsTitle, .AppDirectionsDemonstration{
   display: flex;
@@ -825,13 +833,13 @@ input[id=availInputs]:hover::-webkit-input-placeholder {
   /*background-color:blue;*/
   border-radius:5px;
 }
-.AppDirectionsTitle:hover{
+/* .AppDirectionsTitle:hover{
 cursor:pointer;
-color:white;
-background-color:lightgray;
+color:rgb(0, 0, 0);
+background-color:rgb(114, 190, 251);
 border:none;
 font-size:2.2em;
-}
+} */
 .appExplanation{
   display: flex;
   justify-content: center;
